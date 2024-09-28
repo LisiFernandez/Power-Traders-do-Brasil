@@ -1,0 +1,62 @@
+.about-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  ;
+  max-width: 800px; /* Define uma largura máxima para a div */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza o texto dentro da div (se desejar) */
+}
+  
+  .about-section h2  {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 1080px;
+  }
+  
+  .about-text {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  .about-text p {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      padding: 10px;
+    }
+  
+  
+  
+    .about-section h2 {
+      font-size: 2rem;
+    }
+  
+   
+  }
+  
