@@ -1,0 +1,1 @@
+O power Traders foi meu primeiro site feito com um socio, fazendo esse site destravei muitas habiliades e enfrentei algumas dificuldades, mas saiu como o esperado e com as funcionalidades solicitadas.
